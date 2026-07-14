@@ -57,7 +57,7 @@ body {
 .logo {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 12px;
   text-decoration: none;
   font-family: var(--font-display);
   font-weight: 700;
@@ -66,10 +66,10 @@ body {
   letter-spacing: 0.5px;
 }
 
-.logo-icon {
-  width: 28px;
-  height: 28px;
-  color: var(--secondary);
+.logo-image {
+  height: 32px;
+  width: auto;
+  object-fit: contain;
 }
 
 .nav-links {
@@ -588,6 +588,10 @@ h2 {
 .form-container h2 {
   font-size: 1.5rem;
   margin-bottom: 24px;
+}
+
+.form-container form {
+  display: block;
 }
 
 .form-group {
