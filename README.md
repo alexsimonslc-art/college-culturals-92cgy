@@ -1,2 +1,3 @@
-# college-culturals-92cgy
-College culturals — built with GalSol
+# College culturals
+
+Built with GalSol Ultimate Websites.
