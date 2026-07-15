@@ -15,7 +15,7 @@
   <header class="navbar">
     <div class="nav-container">
       <a href="#" class="logo" onclick="switchTab('home')">
-        <img class="logo-image" src="assets/GalSol-Logo-IC.png" alt="GalSol Logo">
+        <div class="logo-fallback">GS</div>
         <span>COLLEGE CULTURALS</span>
       </a>
       <button class="menu-toggle" onclick="toggleMenu()" aria-label="Toggle Navigation">
@@ -295,7 +295,7 @@
     <div class="footer-grid">
       <div>
         <a href="#" class="logo footer-logo" onclick="switchTab('home')">
-          <img class="logo-image" src="assets/GalSol-Logo-IC.png" alt="GalSol Logo">
+          <div class="logo-fallback">GS</div>
           <span>COLLEGE CULTURALS</span>
         </a>
         <p class="footer-tagline">Setting global benchmarks in academic and practical culturals. Partnered with enterprise visionaries.</p>
@@ -366,6 +366,7 @@
       success.classList.remove('hide');
     }
 
+    // Simple Contact Form Handlers
     function handleContact(e) {
       e.preventDefault();
       e.target.style.display = 'none';
